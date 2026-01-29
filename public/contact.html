@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Nexus Corp. Contact us for technology consulting, project inquiries, or partnership opportunities.">
+  <title>Contact Us | Nexus Corp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="home.html" class="logo">
+        <span class="logo__icon">N</span>
+        <span>Nexus</span>
+      </a>
+      
+      <nav class="nav" id="nav">
+        <a href="home.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+      </nav>
+      
+      <a href="#nav" class="nav-toggle" aria-label="Toggle navigation">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-hero__title">Contact Us</h1>
+        <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="home.html" class="page-hero__breadcrumb-link">Home</a>
+          <span aria-hidden="true">→</span>
+          <span class="page-hero__breadcrumb-current">Contact</span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-header__label">Get In Touch</span>
+          <h2 class="section-header__title">We'd Love to Hear From You</h2>
+          <p class="section-header__description">
+            Have a project in mind? Questions about our services? We're here to help. Fill out the form or reach us directly.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <article class="contact-card">
+              <div class="contact-card__icon">📍</div>
+              <div>
+                <h3 class="contact-card__title">Visit Our Office</h3>
+                <p class="contact-card__text">
+                  123 Innovation Drive, Suite 500<br>
+                  San Francisco, CA 94105<br>
+                  United States
+                </p>
+              </div>
+            </article>
+
+            <article class="contact-card">
+              <div class="contact-card__icon">📧</div>
+              <div>
+                <h3 class="contact-card__title">Email Us</h3>
+                <p class="contact-card__text">
+                  General: hello@nexuscorp.com<br>
+                  Support: support@nexuscorp.com<br>
+                  Sales: sales@nexuscorp.com
+                </p>
+              </div>
+            </article>
+
+            <article class="contact-card">
+              <div class="contact-card__icon">📞</div>
+              <div>
+                <h3 class="contact-card__title">Call Us</h3>
+                <p class="contact-card__text">
+                  Main: +1 (555) 123-4567<br>
+                  Toll-Free: 1-800-NEXUS-CO<br>
+                  Mon-Fri: 9AM - 6PM PST
+                </p>
+              </div>
+            </article>
+
+            <article class="contact-card">
+              <div class="contact-card__icon">💬</div>
+              <div>
+                <h3 class="contact-card__title">Live Chat</h3>
+                <p class="contact-card__text">
+                  Available 24/7 for urgent inquiries.<br>
+                  Average response time: 2 minutes
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Contact Form -->
+          <form class="form" action="#" method="post">
+            <div class="form__row">
+              <div class="form__group">
+                <label for="firstName" class="form__label">First Name *</label>
+                <input 
+                  type="text" 
+                  id="firstName" 
+                  name="firstName" 
+                  class="form__input" 
+                  placeholder="John"
+                  required
+                >
+              </div>
+              <div class="form__group">
+                <label for="lastName" class="form__label">Last Name *</label>
+                <input 
+                  type="text" 
+                  id="lastName" 
+                  name="lastName" 
+                  class="form__input" 
+                  placeholder="Doe"
+                  required
+                >
+              </div>
+            </div>
+
+            <div class="form__group">
+              <label for="email" class="form__label">Email Address *</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                class="form__input" 
+                placeholder="john@company.com"
+                required
+              >
+            </div>
+
+            <div class="form__group">
+              <label for="company" class="form__label">Company Name</label>
+              <input 
+                type="text" 
+                id="company" 
+                name="company" 
+                class="form__input" 
+                placeholder="Your Company Inc."
+              >
+            </div>
+
+            <div class="form__group">
+              <label for="phone" class="form__label">Phone Number</label>
+              <input 
+                type="tel" 
+                id="phone" 
+                name="phone" 
+                class="form__input" 
+                placeholder="+1 (555) 000-0000"
+              >
+            </div>
+
+            <div class="form__group">
+              <label for="subject" class="form__label">Subject *</label>
+              <input 
+                type="text" 
+                id="subject" 
+                name="subject" 
+                class="form__input" 
+                placeholder="How can we help you?"
+                required
+              >
+            </div>
+
+            <div class="form__group">
+              <label for="message" class="form__label">Your Message *</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                class="form__textarea" 
+                placeholder="Tell us about your project, goals, and timeline..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--large">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section--gray">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-header__label">FAQ</span>
+          <h2 class="section-header__title">Common Questions</h2>
+          <p class="section-header__description">
+            Find quick answers to frequently asked questions about our services.
+          </p>
+        </header>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3 class="card__title">What industries do you serve?</h3>
+            <p class="card__description">
+              We work with clients across finance, healthcare, retail, manufacturing, and technology sectors. Our solutions are adaptable to any industry.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">How long does a typical project take?</h3>
+            <p class="card__description">
+              Project timelines vary based on scope. A simple integration may take 2-4 weeks, while enterprise transformations can span 6-12 months.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Do you offer ongoing support?</h3>
+            <p class="card__description">
+              Yes! We provide flexible support packages including 24/7 monitoring, maintenance, and dedicated account management for all our clients.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Can you work with our existing team?</h3>
+            <p class="card__description">
+              Absolutely. We offer team augmentation and collaborative engagement models to complement your in-house capabilities seamlessly.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="home.html" class="footer__logo">
+            <span class="footer__logo-icon">N</span>
+            <span>Nexus</span>
+          </a>
+          <p class="footer__description">
+            Empowering businesses with innovative technology solutions since 2012. We're committed to driving digital transformation and sustainable growth.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">𝕏</a>
+            <a href="#" class="footer__social-link" aria-label="GitHub">◐</a>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Company</h4>
+          <nav class="footer__links">
+            <a href="about.html" class="footer__link">About Us</a>
+            <a href="services.html" class="footer__link">Services</a>
+            <a href="#" class="footer__link">Careers</a>
+            <a href="contact.html" class="footer__link">Contact</a>
+          </nav>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Services</h4>
+          <nav class="footer__links">
+            <a href="services.html" class="footer__link">Cloud Solutions</a>
+            <a href="services.html" class="footer__link">Data Analytics</a>
+            <a href="services.html" class="footer__link">Cybersecurity</a>
+            <a href="services.html" class="footer__link">AI & ML</a>
+          </nav>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Resources</h4>
+          <nav class="footer__links">
+            <a href="#" class="footer__link">Documentation</a>
+            <a href="#" class="footer__link">Blog</a>
+            <a href="#" class="footer__link">Case Studies</a>
+            <a href="#" class="footer__link">Support</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2024 Nexus Corp. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#" class="footer__legal-link">Privacy Policy</a>
+          <a href="#" class="footer__legal-link">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
